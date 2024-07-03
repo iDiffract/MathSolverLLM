@@ -1,4 +1,4 @@
-# MathSolverLLM
+# Math Solver LLM
 
 This code is designed to solve complex mathematical problems using an AI language model. It utilizes the LLaMA (or another suitable open-source model) for generating answers to mathematical problems, leveraging its exceptional reasoning and problem-solving capabilities.
 
