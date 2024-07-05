@@ -20,11 +20,11 @@ pip install torch transformers pandas
 
 ## Usage
 
-1. **Obtain the Model**: You'll need to obtain the LLaMA or another suitable open-source language model. Make sure to update the `model_name` variable in the code with the appropriate model name.
+1. **Obtain the Model**: You'll need to obtain the LLaMA or another suitable open-source language model. Make sure to update the `model_name` variable in the `main.py` code with the appropriate model name.
 
-2. **Prepare the Data**: The code expects two CSV files: `train.csv` and `test.csv`. Each file should have a column named `'problem'` containing the mathematical problem statements, and the `train.csv` file should also have a column named `'answer'` with the corresponding integer answers (between 0 and 999). Update the paths in the code to point to your data files.
+2. **Prepare the Data**: The `main.py` code expects two CSV files: `train.csv` and `test.csv`. Each file should have a column named `'problem'` containing the mathematical problem statements, and the `train.csv` file should also have a column named `'answer'` with the corresponding integer answers (between 0 and 999). Update the paths in the code to point to your data files.
 
-3. **Run the Code**: Execute the Python script, and it will go through the following steps:
+3. **Run the Code**: Execute the Python script `main.py`, and it will go through the following steps:
    - Load the model and tokenizer
    - Define the LLM (Language Model) function for generating text
    - Load the training data and iterate over the problems and answers
